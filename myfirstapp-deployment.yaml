@@ -22,10 +22,10 @@ spec:
             name: redis
             protocol: TCP
       - name: app
-        image: "gcr.io/aluno-turma04-neif/myfirstapp:2.1"
+        image: "gcr.io/aluno-turma04-diegogouvea/myfirstapp:2.1"
         env:
         - name: MESSAGE
-          value: "Neif  - Desafio feito com Sucesso!"
+          value: "Diego Gouvea  - Desafio feito com Sucesso!"
         - name: "REDIS_HOST"
           value: "localhost"
         ports:
